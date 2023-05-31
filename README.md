@@ -19,6 +19,8 @@ While developing applications, TypeScript can be great for enforcing types. But 
   
   <b>Tuples</b>: Any array template with more than one element specified. EG: ["string", "number"]. Will match an array with exactly 2 elements with the first being a string and the second a number. <br><br>
   
+  <h2>Templated Types</h2>
+  
   <b>Non-empty Array</b>: ["string"] matches an array of strings. [ { } ] matches an array of any objects<br><br>
   
   <b>Non-empty Object</b>: <br>
