@@ -2,7 +2,6 @@ function typeChecker(value: any, type: any): boolean{
  
      const primitiveTypeRegex: RegExp = /^(boolean|string|number|undefined)$/i;
      const optionalValRegex: RegExp = /^\S{1,}\?$/;
-     // const curType: string = (type.trim()).toLowerCase();
      let mainRetval: boolean = true;
  
      if(type === "object"){
