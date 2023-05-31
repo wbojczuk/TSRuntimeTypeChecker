@@ -26,4 +26,4 @@ While developing applications, TypeScript can be great for enforcing types. But 
     {"test": "string"} matches an object with only the property <b>test</b> and it is a type of string.<br>
     {"test": ["string"]} matches an object with the property <b>test</b> that contains an array of strings.<br><br>
 
-    <b>"optional?" Property</b>: Including a "?" after the name of a property will make that property optional. EG: {"test?": "number"} is an optional property of type number, but will match even if the property does not exist. It will NOT match if the property exists and is of the wrong type.<br><br>
+   <b>"optional?" Property</b>: Including a "?" after the name of a property will make that property optional. EG: {"test?": "number"} is an optional property of type number, but will match even if the property does not exist. It will NOT match if the property exists and is of the wrong type.<br><br>
