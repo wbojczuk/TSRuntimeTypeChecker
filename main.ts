@@ -1,40 +1,4 @@
-/**
- * WRITE DOCS
- */
-
- const type: any = {
-    id: "number",
-    "true": "string",
-    tags: ["string"],
-    "age?": "number|string"
- };
-
-let val: any = {
-    id: 6,
-    "true": "William Bojczuk",
-    age: "twenty",
-    tags: ["hiker", "biker", "programmer"]
-};
-
- console.log(`
- type:`, type,
- 
-` value:`, val
- )
- 
- console.log(typeChecker(val, type))
- 
- /**
-  * 
-  * 
-  * @param value 
-  * @param type - typeof: string - takes: string, object, array, number, boolean, undefined, tuple
-  *  OR TAKES TEMPLATES THAT ARE AUTOMATICALLY EVALUATED
-  *  EG: ["string"]: array of strings
-  *  EG: {property: "type"}: checks inclusion of all properties and matches types
-  *  EG: ["string", "number"]: must be in this order and number AKA Tuples.
-  */
- function typeChecker(value: any, type: any): boolean{
+function typeChecker(value: any, type: any): boolean{
  
      const primitiveTypeRegex: RegExp = /^(boolean|string|number|undefined)$/i;
      const optionalValRegex: RegExp = /^\S{1,}\?$/;
