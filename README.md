@@ -21,7 +21,10 @@ While developing applications, TypeScript can be great for enforcing types. But 
   
   <h2>Templated Types</h2>
   
-  <b>Non-empty Array</b>: ["string"] matches an array of strings. [ { } ] matches an array of any objects<br><br>
+  <b>Non-empty Array</b>: <br>
+    ["string"] matches an array of strings. [ { } ] matches an array of any objects<br>
+    [ { "test": "string" } ] matches an array of objects where each object contains the property "test" and it's of type "string".
+    <br><br>
   
   <b>Non-empty Object</b>: <br>
     <b>NOTE</b>: Using JSON Syntax {"property" : "type"} is reccommended to avoid TypeScript Linting Errors.<br><br>
