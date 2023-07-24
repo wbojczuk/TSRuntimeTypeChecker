@@ -15,7 +15,7 @@ While developing applications, TypeScript can be great for enforcing types. But 
   
   <b>All Wildcard</b>: The type "all" will match any type.<br><br>
   
-  <b>Array/Object ANY Contents</b>: "array", "object" / or [ ], { }<br><br>
+  <b>Array/Object ANY Contents</b>: "array", "object" or [ ], { }<br><br>
   
   <b>Tuples</b>: Any array template with more than one element specified. EG: ["string", "number"]. Will match an array with exactly 2 elements with the first being a string and the second a number. <br><br>
   
