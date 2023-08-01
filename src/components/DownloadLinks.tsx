@@ -1,5 +1,3 @@
-import React from 'react'
-
 type downloadLinkType = {title: string, link: string}[]
 
 const downloadLinks: downloadLinkType = [
