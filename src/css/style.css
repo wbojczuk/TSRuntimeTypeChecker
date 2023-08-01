@@ -64,6 +64,7 @@ header{
         .download-link .link{
             display: inline-block;
             width: 98%;
+            font-size: 0.9vw;
             padding: 1vh 0 1vh 2%;
             background-color: #33143D;
             border: 1px solid #606060;
