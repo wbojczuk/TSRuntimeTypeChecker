@@ -3,7 +3,7 @@ type downloadLinkType = {title: string, link: string}[]
 const downloadLinks: downloadLinkType = [
     {
         title: "CDN",
-        link: "https://cdn.jsdelivr.net/gh/wbojczuk/TSRuntimeTypeChecker/runtimetypechecker.js"
+        link: "<script src=\"https://cdn.jsdelivr.net/gh/wbojczuk/TSRuntimeTypeChecker/runtimetypechecker.js\"></script>"
     },
     {
         title: "NPM",
