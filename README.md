@@ -1,4 +1,7 @@
 # TSRuntimeTypeChecker
+
+DEMO PAGE: https://wbojczuk.github.io/TSRuntimeTypeChecker/
+
 This powerful tool allows you to check the types of values against predefined templates or primitive types and get a boolean in response.
 <br>
 While developing applications, TypeScript can be great for enforcing types. But what if you need to validate the types during runtime? If you're recieving unchecked data? That's where this tool would be useful.
