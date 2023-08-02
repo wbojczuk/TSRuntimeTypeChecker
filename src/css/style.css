@@ -10,7 +10,7 @@
     --secondary-text-color: #D04F4E;
     --main-box-color: #57527E;
     --secondary-box-color: #848AB1;
-    --main-link-color: #a7b3ff;
+    --main-link-color: #a7f0ff;
 }
 
 body{
@@ -47,11 +47,27 @@ header{
     aspect-ratio: 1/1;
     top:18%;
     right: 15%;
+    animation: icon_bounce 2s ease-in-out infinite;
 }
     #githubIcon img{
         width: 100%;
         height: 100%;
     }
+
+@keyframes icon_bounce {
+    0%{
+        transform: translateY(0);
+    }
+    20%{
+        transform: translateY(0);  
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
 
 #downloadLinks{
     margin-top: 4vh;
