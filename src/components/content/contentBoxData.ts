@@ -19,15 +19,15 @@ export const contentBoxData: contentBoxDataType = [
 
  Any_Value:                   "all"
 
- Empty_Arrays:              [  ] or "array"
+ Any_Value_Array:         [  ] or "array"
 
- Non_Empty_Arrays:     [ "type" ]
+ Typed_Array:                [ "type" ]
 
  Tuples:                          [ "type", "type" ]
  
- Empty_Objects:           { } or "object"
+ Any_Value_Object:      { } or "object"
  
- Non_Empty_Objects:   {"prop": "type"}
+ Typed_Objects:            {"prop": "type"}
     `,
     
         text: "Many different data types are supported including undefined values, strings, booleans, numbers, arrays, objects, and tuples. Also the \"all\" type that matches any value. The visual display on the left shows how to represent different data types and templates."
