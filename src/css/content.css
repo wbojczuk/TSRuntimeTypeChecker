@@ -69,3 +69,43 @@
             font-size: 1.2vw;
             white-space: pre-wrap;
         }
+
+@media only screen and (max-width: 890px) {
+#content{
+    width: 90%;
+    margin-left: 5%;
+}
+
+#siteDescription{
+    width: 90%;
+    margin-left: 5%;
+    font-size: 1.8vh;
+}
+
+#contentBoxes{
+    margin-top: 5vh;
+}
+
+.content-box{
+    margin: 5vh 0;
+}
+    .content-box .text{
+        font-size: 1.5vh;
+        line-height: 1.6em;
+        padding: 0 2vw;
+    }
+    .content-box .code-wrapper{
+        padding: 0.3vh;
+        min-height: 15vh;
+        border: 1vh solid var(--main-box-color);
+        border-radius: 15px;
+    }
+    .content-box.even .code-wrapper{
+        border: 1vh solid var(--secondary-box-color);
+    }
+        .content-box .code-wrapper .code{
+            width: 90%;
+            padding: 0.5vh 0;
+            font-size: 1.2vh;
+        }
+}

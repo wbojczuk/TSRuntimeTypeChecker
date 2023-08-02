@@ -22,8 +22,8 @@
 }
     #whyWrapper .text{
         display: inline-block;
-        width: 40vw;
-        font-size: 1.5vw;
+        width: 35vw;
+        font-size: 1.3vw;
         line-height: 2em;
         color: var(--third-text-color);
         background-color: var(--main-text-color);
@@ -36,3 +36,28 @@
         width: 40vw;
         aspect-ratio: 1.5/1;
     }
+
+@media only screen and (max-width: 890px) {
+#bottomSection{
+    margin-top: 10vh;
+}
+    #bottomSection h1{
+        font-size: 3.1vh;
+        text-shadow: 0px 6px 6px rgba(0,0,0,0.5);
+    }
+#whyWrapper{
+    padding-top: 2vh;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+    #whyWrapper .text{
+        width: 80vw;
+        font-size: 1.5vh;
+        padding: 1.5vh;
+        border-radius: 6px;
+        margin-top: 5vh;
+    }
+    #whyWrapper .anim{
+        width: 50vw;
+    }
+}

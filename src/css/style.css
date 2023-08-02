@@ -94,3 +94,34 @@ header{
             cursor:text;
             font-family: "Source Code Pro", monospace;
         }
+
+@media only screen and (max-width: 890px) {
+    header{
+        margin-top: 2vh;
+    }
+    #siteTitle{
+        font-size: 5vh;
+    }
+    
+    #githubIcon{
+        height: 5vh;
+        top:100%;
+        right: 10%;
+    }
+    
+    #downloadLinks{
+        margin-top: 5vh;
+        width: 88%;
+        word-break: break-all;
+        margin-left: 5%;
+    }
+        .download-link{
+            margin: 1.5vh 0;
+        }
+            .download-link .title{
+                font-size: 2vh;
+            }
+            .download-link .link{
+                font-size: 1.2vh;
+            }
+}
