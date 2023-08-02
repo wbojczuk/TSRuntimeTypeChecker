@@ -23,7 +23,7 @@ export const contentBoxData: contentBoxDataType = [
 
  Non_Empty_Arrays:     [ "type" ]
 
- Tuples:                         [ "type", "type" ]
+ Tuples:                          [ "type", "type" ]
  
  Empty_Objects:           { } or "object"
  
@@ -48,18 +48,18 @@ export const contentBoxData: contentBoxDataType = [
         text: "Supports templates to check objects against. Great for validating data received from the client or an API on the server-side. The script will check as deep as the object goes."
     },
     {
-        code: `// Optional Object Property
+        code: `// Multiple Allowed Types
+        
+const type = "string | number";
+
+typeChecker(value, type);
+
+
+// Optional Object Property
 
 const template = {
     "prop?": "boolean"
-};
-            
-
-// Multiple Allowed Types
-
-const type = "string | number";
-
-typeChecker(value, type);`,
+};`,
         text: "You can also specify two or more primitive types that a value can be by seperating multiple values with \"|\". Or specify an object property that is optional by adding a \"?\" to the end of a property name."
     }
 ]

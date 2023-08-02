@@ -1,0 +1,33 @@
+#bottomSection{
+    margin-top: 10vh;
+    width: 100%;
+   padding-bottom: 10vh;
+    background-color: var(--main-box-color);
+    position: relative;
+}
+    #bottomSection h1{
+        position: absolute;
+        bottom: 99%;
+        left: 2vw;
+        line-height: 100%;
+        font-size: 5vw;
+        font-family: "Dela Gothic One", sans-serif;
+    }
+#whyWrapper{
+ display: flex;
+ padding-top: 5vh;
+ align-items: center;
+ justify-content: center;
+}
+    #whyWrapper .text{
+        display: inline-block;
+        width: 40vw;
+        font-size: 1.5vw;
+        line-height: 2em;
+        color: var(--third-text-color);
+    }
+    #whyWrapper .anim{
+        display: inline-block;
+        width: 40vw;
+        aspect-ratio: 1.5/1;
+    }

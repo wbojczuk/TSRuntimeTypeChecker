@@ -1,6 +1,7 @@
 import Header from "./components/Header"
 import DownloadLinks from './components/DownloadLinks'
 import Content from './components/Content'
+import BottomSection from "./components/BottomSection"
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
         <Header />
         <DownloadLinks />
         <Content />
+        <BottomSection />
     </>
   )
 }
