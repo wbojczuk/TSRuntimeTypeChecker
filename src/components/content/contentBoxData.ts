@@ -18,9 +18,5 @@ export const contentBoxData: contentBoxDataType = [
         
         typeChecker(value, template);`,
         text: "Supports templates to check complex types against like arrays, objects, and tuples. Great for validating data received on the server-side"
-    },
-    {
-        code: ``,
-        text: ""
     }
 ]
