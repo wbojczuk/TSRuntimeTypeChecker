@@ -1,4 +1,5 @@
 "use strict";
+
 function typeChecker(value, type) {
     var localValue = JSON.parse(JSON.stringify(value));
     var primitiveTypeRegex = /^(boolean|string|number|undefined)$/i;
@@ -281,3 +282,4 @@ function typeChecker(value, type) {
     }
     return mainRetval;
 }
+export default typeChecker
